@@ -1,0 +1,106 @@
+body{
+margin:0;
+padding: 0;
+font-family: Arial;
+background-color: antiquewhite;
+
+}
+
+header {
+    color: rgb(229, 238, 238);
+    background-color: rgb(85, 55, 15);
+    padding: 1rem;
+    text-align: center;
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(220, 201, 223);
+    border-bottom: 1px solid black;
+}
+
+nav ul{
+
+    display: flex;
+    list-style: none;
+    background-color: rgb(220, 201, 223);
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 20PX ;
+
+}
+
+
+nav ul li a{
+    color: brown;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-family:'century gothic';
+    font-weight: bold;
+}
+
+nav ul li a:hover{
+   background-color: brown;
+   color: white;
+}
+main{
+display: flex;
+padding: 2.5rem;
+
+}
+
+.content{
+    flex: 3;
+    padding-right: 2rem;
+}
+
+
+
+aside{
+    flex: 1;
+    background-color: rgb(250, 255, 253);
+    padding: 1rem;
+    border-left: 2px outset rgb(156, 86, 20);
+
+}
+aside nav ul{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+
+}
+
+
+aside nav ul li a{
+    color: rgb(141, 85, 11);
+    text-decoration: none;
+    font-family: 'calibri light';
+
+
+}
+
+aside nav ul li a:hover{
+    color: rgb(241, 249, 255);
+    text-decoration: overline;
+    font-family: 'calibri light';
+    background-color: brown;
+
+
+}
+
+article picture img{
+border-radius: 25%;
+border: 1px solid black;
+box-shadow: 5px 5px 10px black;
+
+}
+
